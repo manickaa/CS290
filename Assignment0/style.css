@@ -1,0 +1,63 @@
+/*Author: Aishwarya Manicka Ravichandran
+Program Name: HW #1: HTML/CSS
+Date: June 30 2019
+Course: CS 290*/
+thead th {
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: lime;
+}
+
+tbody tr:nth-child(even) {
+  background-color: aqua;
+}
+
+tbody td:nth-child(2) {
+  color: red;
+}
+
+tbody td:nth-child(4) {
+  color: blue;
+}
+
+div.outer-content {
+  background-color: pink;
+  width: 75%;
+  top: 20px;
+  position: relative;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+div.inner-content {
+  background-color: blue;
+  position: relative;
+  width: 75%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
+
+#inner_div>h3 {
+  text-align: center;
+  margin: 0%;
+}
+
+#candy_list {
+  padding: 0px;
+}
+
+div.fieldset {
+  padding: 8px;
+  border-style: groove;
+  border-color: black;
+  border-width: 1px;
+}
+div.fieldset > p {
+  margin: 0px;
+}
