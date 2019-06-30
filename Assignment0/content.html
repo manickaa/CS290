@@ -1,0 +1,183 @@
+<!-- Author: Aishwarya Manicka Ravichandran -->
+<!-- Program Name: HW #1: HTML-->
+<!-- Date: June 30 2019 -->
+<!-- Course: CS 290 -->
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>A simple web page</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+
+  <body>
+    <table frame="box">
+      <caption>Who wins? The cell contents indicate the status of row entry</caption>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Godzilla</th>
+          <th>Batman</th>
+          <th>Shaq</th>
+          <th>Aaron Carter</th>
+          <th>Abe Lincoln</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="d0">
+          <td><i>Godzilla</i></td>
+          <td>N/A</td>
+          <td>Minor Loss</td>
+          <td>Loss</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+        </tr>
+        <tr class="d1">
+          <td><i>Batman</i></td>
+          <td>Minor Win</td>
+          <td>N/A</td>
+          <td>Total Victory</td>
+          <td>Total Victory</td>
+          <td>Total Loss</td>
+        </tr>
+        <tr class="d2">
+          <td><i>Shaq</i></td>
+          <td>Win</td>
+          <td>Total Loss</td>
+          <td>N/A</td>
+          <td>Minor Loss</td>
+          <td>Unknown</td>
+        </tr>
+        <tr class="d3">
+          <td><i>Aaron Carter</i></td>
+          <td>Unknown</td>
+          <td>Total Loss</td>
+          <td>Minow win</td>
+          <td>N/A</td>
+          <td>Unknown</td>
+        </tr>
+        <tr class="d4">
+          <td><i>Abe Lincoln</i></td>
+          <td>Unknown</td>
+          <td>Total Victory</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>N/A</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">Footer1</td>
+          <td colspan="4">Footer2</td>
+        </tr>
+      </tfoot>
+    </table>
+    <ul style="list-style-type:none;">
+      <li>Best Language</li>
+      <ul style="list-style-type:none;">
+        <li>Python</li>
+      </ul>
+      <li>Wackyiest Language</li>
+      <ul style="list-style-type:none;">
+        <li>Haskell</li>
+      </ul>
+      <li>SEGFAULTiest Language</li>
+      <ul style="list-style-type:none;">
+        <li>C</li>
+      </ul>
+    </ul>
+    <div id="outer_div" class="outer-content">
+      <div id="inner_div" class="inner-content">
+        <h3>Here is some content</h3>
+      </div>
+    </div>
+    <br>
+    <br>
+    <form name="get_form" action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="get">
+      <fieldset>
+        <legend>Some GET Data</legend>
+        <br>
+        <div class="fieldset">
+          <label>OSU Username: <input type="text" name="text_input" size="30" maxlength="100">        
+          </label>
+        </div>
+        <br>
+        <div class="fieldset">
+          <label>ONID: <input type="number" name="numerical_input" size="30" maxlength="9">
+          </label>
+        </div>
+        <br>
+        <div class="fieldset">
+          <label>Password: <input type="password" name="password_input" size="30" maxlength="20">            
+          </label>
+        </div>
+        <br>
+        <div class="fieldset">
+          <p>
+            Select Between:
+          </p>
+          <ul id="candy_list" style="list-style-type:none;">
+            <li><label>
+            <input type="radio" name="candy" value="snickers">Snickers 
+            </label></li>
+            <br>
+            <li><label>
+            <input type="radio" name="candy" value="Skittles">Skittles
+            </label></li>
+            <br>
+            <li><label>
+            <input type="radio" name="candy" value="mentos">Mentos
+          </label></li>
+          </ul>
+          <br>
+          <input type="submit" value="Submit">
+          <br>
+        </div>
+      </fieldset>
+    </form>
+        <form name="post_form" action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post">
+      <fieldset>
+        <legend>Some POST Data</legend>
+        <br>
+        <div class="fieldset">
+          <label>OSU Username: <input type="text" name="text_input" size="30" maxlength="100">        
+          </label>
+        </div>
+        <br>
+        <div class="fieldset">
+          <label>ONID: <input type="number" name="numerical_input" size="30" maxlength="9">
+          </label>
+        </div>
+        <br>
+        <div class="fieldset">
+          <label>Password: <input type="password" name="password_input" size="30" maxlength="20">            
+          </label>
+        </div>
+        <br>
+        <div class="fieldset">
+          <p>
+            Select Between:
+          </p>
+          <ul id="candy_list" style="list-style-type:none;">
+            <li><label>
+            <input type="radio" name="candy" value="snickers">Snickers 
+            </label></li>
+            <br>
+            <li><label>
+            <input type="radio" name="candy" value="Skittles">Skittles
+            </label></li>
+            <br>
+            <li><label>
+            <input type="radio" name="candy" value="mentos">Mentos
+          </label></li>
+          </ul>
+          <br>
+          <input type="submit" value="Submit">
+          <br>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+
+</html>
