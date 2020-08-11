@@ -1,0 +1,70 @@
+<script src="reserveTable.js"></script>
+<div class = "reservetableText">Table Reservation</div>
+			<div class="reservetableText">Timings: Mon-Fri: 10AM-9PM  Sat,Sun: 11AM-10PM</div>
+			<div class="row">
+				<div class="column">
+					<h5> <h3>&#9743;</h3> Contact: (206) 568-0882<h5> 
+				</div>
+				<div class="column">
+					<h5> <h3>&#xf041;</h3> Location: 1801, Boren Avenue, Seattle-98101<h5>
+				</div>
+			</div>
+			<div class="form">
+			<form>
+					<div class="form-group row">
+						<label for="formGroupExampleInput" class="col-2 col-form-label">First Name:</label>
+						<div class="col-6">
+						<input type="text" class="form-control" id="firstname" placeholder="Your First Name" required >
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="formGroupExampleInput" class="col-2 col-form-label">Last Name:</label>
+						<div class="col-6">
+						<input type="text" class="form-control" id="lastname" placeholder="Your Last Name" required>
+						</div>
+					</div>
+					<div class="form-group row">
+		    			<label for="exampleInputEmail1" class="col-2 col-form-label">Email address</label>
+		    			<div class="col-6">
+		    			<input type="email" class="form-control" id="email" placeholder="Enter email" required>
+		    		    </div>
+		  			</div>
+					<div class="form-group row">
+		  				<label for="example-tel-input" class="col-2 col-form-label">Telephone</label>
+		  				<div class="col-6">
+		    			<input class="form-control" type="tel" id="phonenumber" required>
+		  				</div>
+					</div>
+					<div class="form-group row">
+		  				<label for="example-datetime-local-input" class="col-2 col-form-label">Date and time</label>
+		  				<div class="col-6">
+		    			<input class="form-control" type="datetime-local"  id="bookingdate" required>
+		  				</div>
+					</div>
+					<div class="form-group row">
+		    			<label for="exampleFormControlSelect1" class="col-2 col-form-label">Number of guests:</label>
+		    			<div class="col-6">
+					    <select class="form-control" id="numberofguests">
+					      <option>1</option>
+					      <option>2</option>
+					      <option>3</option>
+					      <option>4</option>
+					      <option>5</option>
+					      <option>6</option>
+					      <option>7</option>
+					      <option>8</option>
+					    </select>
+						</div>
+					</div>
+					<div class="form-group row">
+					    <label for="exampleFormControlTextarea1" class="col-2 col-form-label">Additional Comments</label>
+					    <div class="col-6">
+					    <textarea class="form-control" id="notes" rows="3"></textarea>
+						</div>
+					</div>
+					<button type="submit" class="btn btn-primary" id="submitInfo">Submit</button>
+				</form>
+			</div>
+			<p id="test">
+			</p>
+		</div>
