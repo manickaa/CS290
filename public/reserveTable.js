@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", bookingData);
 function bookingData() {
 	document.getElementById("submitInfo").addEventListener("click", function(event) {
 		var req = new XMLHttpRequest();
-		var submitSite = "http://httpbin.org/post";
+		var submitSite = "https://httpbin.org/post";
 		var payLoad = 
 		{
 			"firstname":null,
